@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="game.css">
+    <title>Quiz Foda</title>
+</head>
+<body>
+    <div class="container">
+        <div class="flex-column flex-center">
+        <div class="question">
+            <h2>Que filme é esse?</h2>
+            <img src="./imagens/entretenimento/pulp-fiction.jpeg" id="cena" class="cena" onclick="mudaCena(this)">
+        </div>
+        
+        <div class="choice-container">
+            <p class="choice-prefix">A</p>
+            <p class="choice-text hidden-answer" data-number="1">Cães de Aluguel</p>
+        </div>
+        <div class="choice-container">
+            <p class="choice-prefix">B</p>
+            <p class="choice-text hidden-answer" data-number="2">Fargo</p>
+        </div>
+        <div class="choice-container">
+            <p class="choice-prefix">C</p>
+            <p class="choice-text hidden-answer" data-number="3">Os Bons Companheiros</p>
+        </div>
+        <div class="choice-container">
+            <p class="choice-prefix">D</p>
+            <p class="choice-text hidden-answer" data-number="4">Pulp Fiction</p>
+        </div>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
