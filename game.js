@@ -51,5 +51,4 @@ mudaCena = (cena) => {
         default:
             break
     }
-    console.log(cena.src);
 }
