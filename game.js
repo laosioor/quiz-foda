@@ -1,9 +1,7 @@
 var audio = document.getElementById("audio");
 var disco = document.getElementById("disco");
-var MusicaQuestoes = [{"tipo": "musica"}, {"tipo":"questão"}, {"tipo": "imagem"}];
+var EntretenimentoQ = [{"tipo": "cena", "tema": "filme", "pergunta": "De qual filme ganhador do prêmio Melhor Roteiro Original essas cenas são?", "resp1": "cu"}, {"tipo":"questão"}, {"tipo": "imagem"}];
 localStorage.MusicaQuestoes = JSON.stringify(MusicaQuestoes);
-var ImagemQuestoes
-var NormalQuestoes
 var path = 'http://127.0.0.1:5500/imagens/entretenimento/';
 rodaDisco = () => {
     if (!audio.paused){
